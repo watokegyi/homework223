@@ -2,7 +2,7 @@ import 'dart:io';
 
 void main() {
   print("give your char");
-  String vc = stdin.readLineSync()!;
+  String vc = stdin.readLineSync()!; //vc=vowel check
   if (vc == 'a' || vc == 'A') {
     print('your char is vowels');
   } else if (vc == 'e' || vc == 'E') {
@@ -14,6 +14,6 @@ void main() {
   } else if (vc == 'u' || vc == 'U') {
     print('your char is vowels');
   } else {
-    print('your char is not vowels');
+    print('your char is consonant');
   }
 }
